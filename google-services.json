@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "363610722493",
+    "firebase_url": "https://autenticartuid-fe6f6.firebaseio.com",
+    "project_id": "autenticartuid-fe6f6",
+    "storage_bucket": "autenticartuid-fe6f6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:363610722493:android:98c1af5d6e0b7986",
+        "android_client_info": {
+          "package_name": "com.autenticar.tuid"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "363610722493-7fere04ggl6u3td02eu36fa29am8rhos.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.autenticar.tuid",
+            "certificate_hash": "1e8e175e70d5e7362ab71a18fb880c9dec521ecd"
+          }
+        },
+        {
+          "client_id": "363610722493-4dj4k5or9pova823pfr9r0r3c7c88agh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDWIojU-XrA_bKvhPZ_u3kFxn0t1YiaMrE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "363610722493-4dj4k5or9pova823pfr9r0r3c7c88agh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
