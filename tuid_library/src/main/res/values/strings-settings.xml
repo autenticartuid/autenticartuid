@@ -1,0 +1,4 @@
+<resources>
+    <string name="urlConnection" translatable="false">https://api2.autenticartuid.com/</string>
+    <string name="preference_file_key" translatable="false">tuid5747347keypref</string>
+</resources>

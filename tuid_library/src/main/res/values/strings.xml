@@ -1,0 +1,217 @@
+<resources>
+    <string name="app_name">TuID Vida</string>
+
+    <!-- Strings related to login -->
+    <string name="action_sign_in" translatable="false">Ingresar con Usuario y Clave</string>
+
+    <string name="title_activity_startup" translatable="false">Tuid</string>
+    <string name="title_activity_registrar" translatable="false">Nuevo usuario</string>
+
+    <string name="action_register" translatable="false">Registrate</string>
+    <string name="action_captura_frente_dni" translatable="false">Capturar Frente del DNI</string>
+    <string name="action_captura_dorso_dni" translatable="false">Capturar Dorso del DNI</string>
+
+    <string name="no_hay_conexion_a_internet" translatable="false">No hay conexión a internet</string>
+    <string name="setup_google_play_no_instalado" translatable="false">Google Play no esta instalado en este dispositivo</string>
+    <string name="setup_version_invalida" translatable="false">Versión inválida. Debe indicarse un número válido y mayor a cero</string>
+    <string name="setup_numero_de_version_inexistente" translatable="false">Debe indicarse un número en la versión</string>
+    <string name="setup_descargando_una_version_mas_reciente" translatable="false">Descargando una versión más reciente ...</string>
+    <string name="setup_hubo_error_al_descargar_la_version" translatable="false">"Hubo un error al descargar la nueva versión: "</string>
+
+    <string name="cancel" translatable="false">Cancelar</string>
+    <string name="save" translatable="false">Guardar</string>
+    <string name="saving_image" translatable="false">Guardando Imagen</string>
+    <string name="preparing_card" translatable="false">Preparando tarjeta de memoria</string>
+    <string name="no_storage_card" translatable="false">No hay tarjeta de memoria</string>
+    <string name="not_enough_space" translatable="false">No hay espacio suficiente</string>
+
+    <string name="yes" translatable="false">Sí</string>
+    <string name="no" translatable="false">No</string>
+    <string name="image" translatable="false">Imagen</string>
+    <string name="alert_default_title" translatable="false">Atención</string>
+    <string name="falla_inicializar_barcode" translatable="false">Falla al iniciar el lector del código del documento</string>
+    <string name="falla_inicializar_ocr" translatable="false">Falla al iniciar el lector OCR del textos del documento</string>
+    <string name="falla_captura_barcode" translatable="false">Repite por favor la captura. No se pudo analizar correctamente la imagen.</string>
+    <string name="es_necesario_otorgar_los_permisos_solicitados_para_continuar" translatable="false">Es necesario otorgar los permisos solicitados para continuar</string>
+
+    <string name="ok" translatable="false">Aceptar</string>
+    <string name="permission_camera_rationale" translatable="false">Es necesario acceder a la cámara para su escaneo.</string>
+    <string name="no_camera_permission" translatable="false">La aplicación no puede funcionar porque no diste permiso de acceso a la cámara.</string>
+    <string name="low_storage_error" translatable="false">Hay poco espacio para descargar librerías necesarias para el scan del texto.</string>
+    <string name="ocr_header" translatable="false">Cliquear &quot;Detectar Texto&quot; para iniciar scan</string>
+    <string name="capture_front" translatable="false">Capturar Frente</string>
+    <string name="capture_back" translatable="false">Capturar Dorso</string>
+    <string name="capture_gestures" translatable="false">Pruebas de Vida</string>
+    <string name="send_chance" translatable="false">Enviar respuesta</string>
+    <string name="start_validation" translatable="false">Iniciar validación</string>
+    <string name="send_validation_code" translatable="false">Enviar código</string>
+    <string name="auto_focus" translatable="false">Autofocus</string>
+    <string name="use_flash" translatable="false">Usar flash</string>
+    <string name="ocr_success" translatable="false">Scan satisfactorio</string>
+    <string name="ocr_failure" translatable="false">No se capturó ningún texto</string>
+    <string name="ocr_error" translatable="false">"Error al leer el siguiente texto: %1$s"</string>
+    <string name="ingreso_por_datos_biometricos" translatable="false">Fé de Vida</string>
+    <string name="explicacion_registro_paso1" translatable="false">El primer paso consiste en tomar una fotografía del frente de tu DNI. Busca un lugar con buena iluminación</string>
+    <string name="explicacion_registro_paso2" translatable="false">El segundo paso consiste en tomar una fotografía del dorso de tu DNI. Busca un lugar con buena iluminación.</string>
+    <string name="explicacion_registro_paso3" translatable="false">Ahora vamos a hacer algunas capturas de tus gestos como prueba de vida. Tu cara deberá ocupar gran parte de la pantalla</string>
+    <string name="explicacion_registro_chances" translatable="false">Necesitamos que respondas la siguiente pregunta correctamente para dar por finalizado tu registro.</string>
+    <string name="explicacion_registro_validacion" translatable="false">Para completar tu registro debes indicar una dirección de mail o un número de teléfono. Recibirás un código de verificación.</string>
+    <string name="explicacion_registro_scan_paso1" translatable="false">El primer paso, consiste en realizar un scan del frente y dorso de tu DNI. Busca un lugar con buena iluminación</string>
+    <string name="explicacion_registro_scan_paso2" translatable="false">Ahora vamos a capturar un gesto como prueba de vida. Tu cara deberá ocupar gran parte de la pantalla</string>
+
+    <string name="gesto_1" translatable="false">Selfie sin gestos</string>
+    <string name="gesto_2" translatable="false">Gesto 2</string>
+    <string name="gesto_3" translatable="false">Gesto 3</string>
+    <string name="pregunta_chance" translatable="false">Pregunta de la Chance</string>
+    <string name="chance" translatable="false">Chance</string>
+    <string name="prompt_mail" translatable="false">Correo electrónico</string>
+    <string name="prompt_telefono" translatable="false">Número de Teléfono</string>
+    <string name="prompt_codigo_validacion" translatable="false">Código de Verificación</string>
+    <string name="error_leer_informacion_texto_no_se_pudo" translatable="false">Lamentablemente no pudimos obtener toda la información del frente del DNI. Prueba otra vez.</string>
+    <string name="error_leer_informacion_texto_no_se_pudo_d" translatable="false">Lamentablemente no pudimos obtener toda la información del dorso del DNI. Prueba otra vez.</string>
+    <string name="error_leer_informacion_texto" translatable="false">Lamentablemente tuvimos problemas para leer la información. Prueba otra vez.</string>
+    <string name="error_leer_codigo_qr" translatable="false">Lamentablemente no pudimos leer la información del código qr. Prueba otra vez.</string>
+    <string name="action_continuar" translatable="false">Continuar</string>
+    <string name="alert_reconocimiento_ok" translatable="false">Identificación satisfactorio. Presiona Confirmar</string>
+    <string name="confirmar_registraci_n" translatable="false">Confirmar Registración</string>
+    <string name="registro_satisfactorio" translatable="false">Tu registro se completó satisfactoriamente</string>
+    <string name="telefono_invalido" translatable="false">Debes ingresar un número de teléfono válido</string>
+    <string name="corre_invalido" translatable="false">Debes ingresar un correo electrónico válido</string>
+    <string name="datos_envio_vacios" translatable="false">Debes seleccionar e ingresar datos en alguno de los campos</string>
+    <string name="alert_ingresa_codigo_enviado" translatable="false">Debes ingresar el código que te enviamos</string>
+    <string name="alert_elige_respuesta" translatable="false">Debes elegir una respuesta</string>
+    <string name="alert_recibiras_codigo_verificacion" translatable="false">Pronto recibirás el código de verificación</string>
+    <string name="imposible_validar_identidad" translatable="false">No es posible validar tu identidad</string>
+    <string name="alert_verificando_info" translatable="false">Verificando la información. Aguarde un momento</string>
+    <string name="alert_validando_identidad" translatable="false">Aguarda un instante mientras validamos tu identidad</string>
+    <string name="alert_enviando_codigo_ver" translatable="false">Enviando código de verificación...</string>
+    <string name="no_sos_usuario" translatable="false">¿No sos %s?</string>
+    <string name="title_activity_main" translatable="false">Bienvenido</string>
+    <string name="iniciar_scan" translatable="false">Iniciar Scan</string>
+    <string name="title_activity_main_">Home</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="alert_titulo_alerta">Alerta</string>
+    <string name="alert_msn_cancelar_registro">¿Desea cancelar el proceso de registro?</string>
+    <string name="validacion_conirmacion_email">No coincide el Email de confirmación </string>
+    <string name="conirmacion_email">Confirmar correo electrónico</string>
+    <string name="conirmacion_telf">Confirmar número de teléfono</string>
+    <string name="validacion_conirmacion_telefono">No coinciden numeros telefonicos</string>
+
+    <!-- Menu Contact-->
+    <string name="contact_dni">DNI</string>
+    <string name="contact_email">Email</string>
+    <string name="contact_asunto">Asunto</string>
+    <string name="contact_mensaje">Mensaje</string>
+    <string name="contact_enviar">Enviar</string>
+    <string name="contact_validar_dni">Debe ingresar un DNI valido.</string>
+    <string name="contact_validar_email">El Email no es valido.</string>
+    <string name="contact_validar_asunto">Debe ingresar un el ASUNTO.</string>
+    <string name="contact_validar_mensaje">Se requiere un Mensaje</string>
+    <!-- end Menu Contact -->
+
+    <!-- Main -->
+    <string name="main_alert_back">¿Está seguro que desea salir? </string>
+    <string name="label_fe_vida">Fé de vida</string>
+    <string name="label_terminos_text">Acepto terminos y condiciones</string>
+    <!-- end Main -->
+    <string name="nav_titulo_termino_condiciones">Terminos y Condiciones</string>
+    <string name="nav_titulo_politicas">Políticas de privacidad</string>
+    <string name="nav_titulo_empresa">Empresa</string>
+    <string name="nav_titulo_contacto">Contacto</string>
+    <string name="nav_content_termino_condiciones">
+        Por medio del presente documento conocerá las bases que sustentaran el uso de los datos que suministre en el sitio web al que ha accedido como usuario, siendo el propietario titular TuID.\n\n
+
+        De igual manera, se les notifica que el llenado de los formatos de datos que se encuentran en el sitio web queda a consideración del usuario, aunque es relevante destacar que si no se completan dichos formularios no tendrá la posibilidad de contar con la asistencia técnica por parte de nuestro personal de servicio técnico y operativo. Estos datos recolectados en dichos formularios son resguardados protegiendo la identidad, privacidad y opinión de los usuarios, por tal motivo la empresa tiene prohibido cederlos a terceros excepto en los casos donde exista un basamento legal o que sea bajo el consentimiento propio del usuario. \n\n
+        Ese registro se almacenará mientras dure la relación comercial del usuario y la empresa. De igual manera se mantendrá vigente mientras cumpla con las obligaciones legales y legítimas establecidas con anterioridad y estipuladas en estas políticas. \n\n
+        Los datos proporcionados por el usuario serán utilizados principalmente para llevar un registro que permita una mejor relación comercial entre la empresa y el usuario,  suministrándole información pertinente a la oferta de la empresa y otros datos que se detallan en este documento. De igual manera dichos datos se usarán para que los usuarios participen en las promociones, capacitación o eventos realizados por TuID y sus patrocinadores.  \n\n
+        Se hace necesario resaltar la variabilidad de esta Política de Privacidad en lo que respecta al tiempo, en tal sentido si se realizase cualquier modificación se informará tanto en nuestro sitio Web como por envío personalizado de comunicación a la dirección suministrada por el usuario. Así mismo queda bajo potestad del usuario desautorizar el consentimiento conferido. \n\n
+        Todo usuario al realizar el registro en TuID expresa su consentimiento y aceptación de todo lo planteado en la presente en el modulo Política de Privacidad, en especial en lo que se refiere al manejo y gestión de los datos según los fines y servicios mostrados. \n\n
+
+        Sobre portal TuID. \n\n
+        TuID es un portal web que tiene como objetivo brindar información sobre los productos y servicios brindados bajo la denominación Autenticar TuID, Tu ID o TuID Vida. \n
+        En TuID nos hacemos responsable de la forma en que se utilicen los datos suministrados por el usuario respetando siempre la privacidad del mismo. De igual manera, nos encargamos del tratamiento de los datos aportados por terceros quienes nos los confían para que su utilización y gestión. \n
+        Dentro de este contexto, para TuID la protección de la privacidad tanto de la identidad como de los datos aportados por los usuarios es importante, por ende tiene su basamento en estamentos jurídicos y legales expresados en la Ley de Protección de los Datos Personales de Argentina o Ley 25.326 aprobada el 4 de octubre del año 2000 y en la Ley Orgánica de Protección de Datos de Carácter Personal de Argentina (LPOD) o Ley 15/199 aprobada en diciembre de 1999. \n
+        De igual manera, tiene su basamento legal en el Real Decreto 1720/2007 (Diciembre, 2007), en el Reglamento (UE) 2016/679 del Parlamento Europeo y del Consejo (Abril, 2016) estatuto que tiene como finalidad fundamentar la protección de los usuarios en relación al uso de sus datos personales, así como en lo relativo al tráfico de esos datos. Así mismo se fundamenta en las demás leyes y normas vigentes aplicadas en el país e internacionales que garanticen el correcto uso y protección de los datos del usuario. \n\n
+        Es necesario resaltar que los datos que aportan los usuarios al portal TuID se almacenan en los ficheros personales de la empresa. \n\n
+        Sobre Aplicaciones y SDK\n\n
+        TuID es el propietario y operador de las aplicaciones, tecnologías y SDK de TuID que permiten realizar la Verificación y Autenticación de Identidad y Fe de Vida y todo contenido de los sitios web tuid.com.ar y autenticartuid.com y sus subdominios. \n
+        Estos Términos y Condiciones se aplican al uso del Servicio brindado a través de computadoras personales, dispositivos móviles u otros. \n
+        Es importante que lea y entienda los Términos y Condiciones aquí expuestos. Al descargar, instalar, acceder o utilizar el Servicio, confirma que ha leído y comprendido los Términos y como así también nuestra Política de Privacidad. La que se obliga a respetar al aceptar este acuerdo. \n
+        En caso de no comprender o aceptar los Términos y Condiciones sugerimos no utilice nuestros Servicios. En caso de actuar en nombre de una Entidad o Institución declara estar capacitado y autorizado a utilizar o contratar en su nombre. \n
+        Estos Términos están sujetos a cambios o modificaciones según sean necesarios. Por lo que es responsabilidad de los usuarios leer periódicamente los cambios que pudieran producirse. \n\n
+
+        Restricciones para Usuarios\n\n
+        El uso del Servicio de Verificación y Autenticación de Identidad está destinado únicamente a personas mayores de 18 años. Estando prohibida la utilización del Servicio por menores de esta edad salvo el caso de contar con permiso legal de un padre o tutor para utilizar el Servicio. \n
+        El Usuario acepta no proporcionar información incorrecta, engañosa o falsa en relación con el uso del Servicio. Si la información que nos ha proporcionado posteriormente se vuelve inexacta, engañosa o falsa, deberá notificar tal cambio. \n
+
+        Al Contratar o hacer uso de los Servicios brindados por TuID solo se adquiere derechos sobre el uso del Servicio contratado.
+        El mismo no transmite ningún derecho de propiedad sobre licencias, patentes, imágenes y datos, salvo los que se especifiquen puntualmente en el contrato de suscripción. \n
+        El uso de Versiones Demo no otorga ningún derecho de licencia ni de responsabilidades al usuario de los Servicios y es al solo efecto de probar los servicios para su evaluación. \n
+        Las copias de Aplicaciones, como así también las de SDK se licencian exclusivamente para uso de los Servicios brindados por TuID. Aunque sean instalados en dispositivos de propiedad de usuarios o clientes e incluso los SDK que forman parte de las aplicaciones de los clientes. El Software no se vende. Y lo que abona la Entidad contratante es solamente por el uso del Servicio. Siendo TuID el dueño de toda propiedad intelectual. \n
+        La licencia para el uso de las Aplicaciones y/o SDK permanecerá activa mientras se encuentre vigente la contratación del Servicio. \n\n
+
+        Actividades prohibidas\n\n
+        La siguiente lista contiene ejemplos de comportamientos que están prohibidos en el Servicio: \n\n
+        •	Hacerse pasar por otra persona o entidad; \n
+        •	Acceder o utilizar el Servicio de manera ilegal o con cualquier propósito ilegal; \n
+        •	Transmisión de cualquier dato, material, contenido o información que sea difamatoria, obscena, fraudulenta, falsa o contraria a la propiedad o los derechos de propiedad intelectual de cualquier otra persona, o de otro modo ilegal; \n
+        •	Transmisión de virus, malware u otro código malicioso en el Servicio; \n
+        •	Modificación, ingeniería inversa u otra manipulación del Servicio; \n
+        •	Interferir o interrumpir el Servicio. \n
+
+        Privacidad y Seguridad\n\n
+        Su privacidad y la protección de sus datos personales son muy importantes para nosotros. Para obtener mayor detalle de cómo recopilamos y utilizamos sus datos personales, consulte nuestra Política de Privacidad. \n
+        Al utilizar TuID, usted acepta que recopilemos información sobre usted y su uso que hace del Servicio de conformidad con nuestra Política de Privacidad y las leyes y regulaciones aplicables relacionadas con los datos personales. \n
+        Además de lo que se establece en la Política de privacidad, usted acepta: \n\n
+    </string>
+    <string name="nav_content_politicas">
+        Las Imágenes tanto del Documento de Identidad escaneadas como la autofoto (Selfie) son obtenidas y guardadas con el único fin de brindar el servicio de Verificación y Validación de Identidad y Fe de Vida.
+        Con el fin de proteger su privacidad. La transmisión y almacenamiento de imágenes y sus datos, son cifrados para proteger su privacidad. Y Nos comprometemos a no transferir ni divulgar ninguna información por usted brindada.\n\n
+
+        Al instalar y utilizar esta aplicación usted está aceptando los términos y condiciones aquí expuestos.\n
+        No obstante ello puede en cualquier momento solicitar la eliminación sus imágenes y datos personales enviándonos un correo electrónico usando este enlace. Pero tenga en cuenta que no podremos continuar brindándole el servicio.\n\n
+
+        TuID se compromete a proteger la privacidad de las personas que utilizando sus servicios envían su información personal a TuID en cualquier forma tales como imágenes, datos personales y documentos (como DNI, Pasaportes, Tarjetas de Crédito, etc.) lo que hace posible ser identificados total o parcialmente.\n\n
+
+        CÓMO RECOGEMOS Y ALMACENAMOS SUS DATOS?\n\n
+        Sus datos son recopilados y almacenados por TuID a través de los canales utilizados para brindar sus servicios de Verificación y Validación de Identidad y Fe de Vida.\n\n
+
+        El periodo de almacenamiento de información dependerá de los servicios utilizados. Según lo requiera la ley y para acreditar la autenticación realizada.\n
+        Si recopilamos sus datos se realiza en base a su consentimiento, los datos se almacenarán durante el tiempo que nos brinde su consentimiento.\n\n
+
+        CUALES SON SUS DERECHOS?\n\n
+
+        Según la Ley 25.32 de Protección de los Datos Personales, usted tiene derecho de requerir qué información tenemos sobre usted, y puede solicitarnos que la corrijamos si es incorrecta. También puede solicitar que se borre, bloquee o  solicitar que le entreguemos una copia de dicha información. Solo tiene que enviándonos un correo electrónico a contacto@tuid.com.ar.\n\n
+
+        Si tiene una queja sobre el uso que hacemos de su información, puede comunicarse con la autoridad Dirección Nacional de Datos Personales para obtener información sobre sus derechos.\n\n
+
+        DATOS OPERATIVOS\n\n
+
+        TuID puede recopilar y almacenar otra información, que no se refiera a su identidad específica, como información del navegador y dispositivo, dirección IP, información del archivo de registro del servidor, el nombre de su host o el nombre de dominio del sitio web que lo remitió a nosotros. Datos de uso de la aplicación, del sitio, información georeferencial, información recopilada a través de cookies, datos de uso anónimo de la aplicación y otra información proporcionada por usted.\n\n
+
+        INFORMACION DE TERCEROS\n\n
+
+        TuID puede utilizar su información personal brindada por usted, como así también información personal de terceros proporcionada por usted, para mejorar los productos y servicios de. Este uso de datos personales se limita simplemente al uso del contenido que usted nos proporciona para desarrollar o mejorar los servicios en base al conocimiento.\n\n
+
+        Cuando nos envía información personal de terceros o realiza procesos utilizando nuestros servicios, usted es responsable de obtener el consentimiento apropiado de dichos terceros. TuID se compromete a que la información personal de terceros se procese, maneje y recopile de la misma manera que su información personal. Sin embargo, usted es el único responsable de obtener el consentimiento de terceros para el uso y el procesamiento de su información personal para los fines mencionados anteriormente.\n\n
+
+        Su privacidad e Identidad son importantes para TuID. No vendemos, alquilamos ni divulgamos a terceros información personal relacionada con ninguno de nuestros usuarios, a menos que se indique lo contrario a continuación.\n\n
+    </string>
+    <string name="nav_content_empresa">  Tu ID brinda soluciones que combinan la Verificación y Autenticación de DNI e Identidad de la Personas y comprobación de signos vitales para establecer la autenticidad de Clientes y Usuarios de aplicaciones móviles y dar Fe de Vida.\n
+        Hacemos uso de las más avanzadas tecnologías de reconocimiento Biométrico Facial, el aprendizaje automático y sistemas expertos en verificación.\n\n
+        Ayudamos a las Empresas e Instituciones a impedir el "fraude por suplantación de identidad".
+        Y a los Clientes y Usuarios a tener experiencias seguras.\n\n
+        "Cuidamos su identidad"\n\n
+    </string>
+    <string name="nav_content_contacto">Si necesita ayuda o rectificar algún dato\n
+envíenos un mensaje o contactenos por Correo electrónico: contacto@tuid.com.ar\n\n
+
+Rellene el Formulario para hacernos saber cómo le podemos ayudar.\n\n
+</string>
+</resources>

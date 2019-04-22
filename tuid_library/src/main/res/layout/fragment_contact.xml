@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/layout_contact"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:gravity="top|center"
+                android:orientation="vertical">
+                <TextView
+                    android:id="@+id/text_content_info_DNI"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/colorPrimary"
+                    android:text="@string/contact_dni"/>
+                <EditText
+                    android:id="@+id/text_content_info_dni_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/contact_dni"
+                    android:padding="10dp"
+                    android:background="@color/black_2" />
+                <TextView
+                    android:id="@+id/text_content_info_email"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/colorPrimary"
+                    android:text="@string/contact_email"/>
+                <EditText
+                    android:id="@+id/text_content_info_email_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/contact_email"
+                    android:padding="10dp"
+                    android:background="@color/black_2" />
+                <TextView
+                    android:id="@+id/text_content_info_asunto"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/colorPrimary"
+                    android:text="@string/contact_asunto" />
+                <EditText
+                    android:id="@+id/text_content_info_asunto_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/contact_asunto"
+                    android:padding="10dp"
+                    android:background="@color/black_2" />
+                <TextView
+                    android:id="@+id/text_content_info_msn"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/colorPrimary"
+                    android:text="@string/contact_mensaje" />
+                <EditText
+                    android:id="@+id/text_content_info_msn_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="250dp"
+                    android:gravity="top"
+                    android:hint="@string/contact_mensaje"
+                    android:maxLines="13"
+                    android:background="@color/black_2"
+                    android:padding="10dp" />
+                <Button
+                    android:id="@+id/btn_send"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginBottom="15dp"
+                    android:layout_width="wrap_content"
+                    android:text="@string/contact_enviar"
+                    android:textSize="19sp"/>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
